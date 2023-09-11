@@ -1,0 +1,31 @@
+{
+  "name": "pckconf",
+  "version": "0.0.0-2",
+  "description": "Execute it before npm publish.",
+  "bin": {
+    "pckconf": "./dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsup ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Martin",
+  "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "tsup": "^7.2.0"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "tsup": {
+    "target": "esnext",
+    "format": [
+      "esm"
+    ],
+    "outDir": "./dist"
+  }
+}
