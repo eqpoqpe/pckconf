@@ -4,7 +4,7 @@
     "incremental": false,
     // "composite": true,
     /* Language and Environment */
-    "target": "es2016",
+    "target": "ESNext",
     "lib": [],
     "moduleDetection": "auto",
     /* Modules */
