@@ -1,12 +1,14 @@
 {
   "name": "pckconf",
-  "version": "0.0.0-2",
+  "version": "0.0.1",
   "description": "Execute it before npm publish.",
+  "private": false,
   "bin": {
     "pckconf": "./dist/index.js"
   },
   "type": "module",
   "scripts": {
+    "start": "bun ./src/index.ts",
     "build": "tsup ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +18,7 @@
     "dist/**/*"
   ],
   "devDependencies": {
+    "@types/node": "^20.6.0",
     "tsup": "^7.2.0"
   },
   "engines": {

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    "incremental": false,
+    // "composite": true,
+    /* Language and Environment */
+    "target": "es2016",
+    "lib": [],
+    "moduleDetection": "auto",
+    /* Modules */
+    "module": "ESNext",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    /* JavaScript Support */
+    "allowJs": true,
+    "checkJs": false,
+    /* Emit */
+    "declaration": false,
+    "outDir": "dist",
+    "removeComments": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src"
+  ]
+}
