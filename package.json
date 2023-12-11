@@ -29,6 +29,8 @@
     "format": [
       "esm"
     ],
+    "minify": true,
+    "clean": true,
     "outDir": "./dist"
   }
 }
