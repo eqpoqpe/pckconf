@@ -3,7 +3,7 @@
 Change your default fields to release fields.
 
 > [!IMPORTANT]
-> Ensure that the `publishConfig` field exists in your `package.json` file. Execute it before npm publish.
+> Ensure that the [`publishConfig`](https://docs.npmjs.com/cli/v10/configuring-npm/package-json#publishconfig) field exists in your `package.json` file. Execute it before npm publish.
 
 ## Usage
 
